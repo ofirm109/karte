@@ -1,0 +1,354 @@
+body {
+    direction: rtl;
+    position: relative;
+}
+
+h1, h2, p {
+    text-align: right;
+}
+
+h1 {
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    float: none;
+    height: 20px;
+    float: right;
+}
+
+    nav ul li a, nav ul li {
+        text-align: center;
+    }
+
+.Shedo {
+    background-color: #4d4d4d;
+    position: absolute;
+    width: 100%;
+    right: 0;
+    z-index: -1;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.navColor {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: #4d4d4d;
+    z-index: 2;
+}
+
+#sticy {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    z-index: 5;
+}
+
+#sticyHomePage {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 5;
+}
+
+header nav ul li :hover {
+    color: white;
+}
+
+header nav ul li a, header nav ul li {
+    color: white;
+}
+
+.logo {
+    padding-bottom: 30%;
+}
+
+.this {
+    text-decoration: underline;
+}
+
+footer {
+    display: block;
+    padding-top: 50px;
+}
+
+#homePageH1 {
+    z-index: 1;
+}
+
+    #homePageH1 > h1 {
+        padding-top: 50px;
+        font-size: 40pt;
+        text-align: center;
+        color: white;
+    }
+
+#shodoHomePage {
+    bottom: -1%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: black;
+    opacity: 0.8;
+}
+
+#imageHomePage {
+    background-image: url(../image/temeHomePage1.jpg);
+    background-size: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+
+#katash1 {
+    text-align: center;
+    font-size: 25pt;
+}
+
+.katah2 {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-size: 20pt;
+}
+
+ol {
+    text-align: right;
+}
+
+.riteP {
+    text-align: right;
+}
+
+.words h2,.words h3 {
+    font-size: 14pt;
+    font-weight: bold;
+    padding-top:30px;
+    padding-bottom:20px;
+    color:red;
+}
+.words li{
+    padding-bottom:5px;
+}
+@media (min-width: 300px) {
+    #container {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .video {
+        width: 200px;
+        height: 200px;
+    }
+
+    header nav ul li {
+        width: 60px;
+    }
+
+    header nav {
+        float: none;
+    }
+
+    .logo {
+        width: 60%;
+        height: 250%;
+    }
+
+    #imageHomePage {
+        height: 180px;
+    }
+
+    #homePageH1 > h1 {
+        padding-top: 40px;
+        font-size: 20pt;
+    }
+
+    #shodoHomePage {
+        padding-top: 5px;
+        padding-bottom: 60px;
+    }
+
+    .opening {
+        padding-top: 25%;
+    }
+}
+
+
+@media (min-width: 576px) {
+    #container {
+        width: 576px;
+        margin: 0 auto;
+    }
+
+    .video {
+        width: 400px;
+        height: 250px;
+    }
+
+    header nav ul li {
+        width: 108px;
+    }
+
+    header nav {
+        float: none;
+    }
+
+    .logo {
+        width: 40%;
+        height: 350%;
+    }
+
+    #imageHomePage {
+        height: 300px;
+    }
+
+    #homePageH1 > h1 {
+        padding-top: 80px;
+        font-size: 45pt;
+    }
+
+    #shodoHomePage {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+
+    #shodoHomePage {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
+    .opening {
+        padding-top: 15%;
+    }
+}
+
+@media (min-width: 768px) {
+    #container {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    .video {
+        width: 400px;
+        height: 250px;
+    }
+
+    header nav ul li {
+        width: 145.3px;
+    }
+
+    header nav {
+        float: none;
+    }
+
+    .logo {
+        width: 30%;
+        height: 400%;
+    }
+
+    #imageHomePage {
+        height: 400px;
+    }
+
+    #homePageH1 > h1 {
+        padding-top: 100px;
+        font-size: 50pt;
+    }
+
+    #shodoHomePage {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .opening {
+        padding-top: 10%;
+    }
+}
+
+@media (min-width: 992px) {
+    #container {
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    .video {
+        width: 560px;
+        height: 315px;
+    }
+
+    header nav ul li {
+        width: 192px;
+    }
+
+    .logo {
+        width: 25%;
+        height: 450%;
+    }
+
+    #imageHomePage {
+        height: 550px;
+    }
+
+    #homePageH1 > h1 {
+        padding-top: 100px;
+        font-size: 80pt;
+    }
+
+    #shodoHomePage {
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+
+    .opening {
+        padding-top: 10%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #container {
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    .video {
+        width: 560px;
+        height: 315px;
+    }
+
+    header nav ul li {
+        width: 192px;
+    }
+
+    .logo {
+        width: 25%;
+        height: 450%;
+    }
+
+    #imageHomePage {
+        height: 620px;
+    }
+
+    #homePageH1 > h1 {
+        padding-top: 100px;
+        font-size: 80pt;
+    }
+
+    #shodoHomePage {
+        bottom: -5%;
+        padding-top: 130px;
+        padding-bottom: 130px;
+        background-color: black;
+        opacity: 0.8;
+    }
+
+    .opening {
+        padding-top: 10%;
+    }
+}
